@@ -1,0 +1,29 @@
+"name": "Regressivo",
+"version": "1.0.0",
+"description": "Teste regressivo Alianz",
+"main": "src/index.html",
+"scripts": {
+  "cy:open": "cypress open",
+  "cy:open:mobile": "cypress open --config viewportWidth=410 viewportHeight=860",
+  "cy:mobile": "cypress run --config viewportWidth=410 viewportHeight=860",
+  "test": "cypress run"
+},
+"repository": {
+  "type": "git",
+  "url": "git+https://git.catskillet.com/AnaSantos/alianz.git"
+},
+"keywords": [
+  "Testing",
+  "Cypress.io",
+  "Talking About Testing",
+  "Cypress Básico",
+  "Escola TAT"
+],
+"author": "ana.santos@catskillet.com",
+"license": "MIT",
+"homepage": "https://git.catskillet.com/AnaSantos/alianz.git#readme",
+"devDependencies": {
+  "cypress": "^8.3.1",
+  "faker": "^5.5.3"
+}
+}
